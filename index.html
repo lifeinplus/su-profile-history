@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Profile and History</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <header>
+            <nav>
+                <h2>Menu</h2>
+                <ul>
+                    <li onclick="showProfile()">Profile</li>
+                    <li onclick="showHistory()">History</li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h2>Content</h2>
+            <section id="profile" class="input-group" style="display: none">
+                <label for="name">Name</label>
+                <input type="text" id="name" />
+            </section>
+            <section id="history" class="input-group" style="display: none">
+                <label for="date">Date of Visit</label>
+                <input type="date" id="date" />
+            </section>
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>

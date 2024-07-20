@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    display: flex;
+    height: 100vh;
+}
+
+header {
+    width: 20%;
+    background-color: aliceblue;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+header ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+header li:hover {
+    background-color: lightskyblue;
+}
+
+main {
+    width: 80%;
+    padding: 20px;
+}
+
+.input-group {
+    margin-top: 20px;
+}
